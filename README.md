@@ -1,10 +1,5 @@
-ScriptsPhpBB
-============
-
-Scripts de maintenance pour phpBB
-
-1. Script Fusion.sh
--------------------
+Script Fusion.sh
+================
 
 Ce script lit les listes noires de plusieurs sites phpBB
 et les synchronise.
