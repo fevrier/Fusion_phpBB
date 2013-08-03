@@ -131,7 +131,7 @@ if [ -f "${LISTE_REFERENCE}" ] ; then
 
         /bin/cat "${TEMP}/suppr-ip.txt" \
         |  /usr/bin/xargs -l1 -r -IADR_IP \
-           /usr/bin/psql "${NOM_DE_LA_BASE=}" -q -c "delete from ${EN_TETE_TABLES}_banlist where ban_ip='ADR_IP' ;"
+           /usr/bin/psql "${NOM_DE_LA_BASE}" -q -c "delete from ${EN_TETE_TABLES}_banlist where ban_ip='ADR_IP' ;"
 
       fi
       if [ -s "${TEMP}/suppr-email.txt" ] ; then
