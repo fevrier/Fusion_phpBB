@@ -1,5 +1,5 @@
-Script Fusion.sh
-================
+Fusion.sh
+=========
 
 Ce script lit les listes noires de plusieurs sites phpBB
 et les synchronise.
@@ -14,12 +14,12 @@ base.
 
 Précautions d'emploi et avertissements
 
-/!\ Attention ! N'utilisez pas ces commandes sans avoir
+*Attention !* N'utilisez pas ces commandes sans avoir
 préalablement réalisé une sauvegarde de votre base de
 données (en plus, avec PostgreSQL, c'est très simple
-- cf. les commandes pg_dump et pg_dumpall).
+ -- cf. les commandes pg\_dump et pg\_dumpall).
 
-/!\ Dans tous les cas, l'utilisation de ces scripts se
+*Attention !* Dans tous les cas, l'utilisation de ces scripts se
 fait à vos risques et périls.
 
 Installation
